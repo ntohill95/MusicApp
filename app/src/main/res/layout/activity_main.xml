@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/home"
+        style="@style/HeadingStyle"
+        android:background="@color/logoBlue"
+        android:text="@string/home" />
+
+    <ImageView
+        android:id="@+id/logo"
+        style="@style/LogoStyle"
+        android:src="@drawable/quaver" />
+
+    <ImageView
+        android:id="@+id/logoName"
+        style="@style/LogoTitleStyle"
+        android:src="@drawable/quaver_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/MenuButtonStyle"
+            android:src="@drawable/book" />
+
+        <ImageView
+            style="@style/MenuButtonStyle"
+            android:src="@drawable/home" />
+
+    </LinearLayout>
+</LinearLayout>
