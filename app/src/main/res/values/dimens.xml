@@ -3,5 +3,7 @@
     <dimen name="header_height">65dp</dimen>
     <dimen name="header_size">30sp</dimen>
     <dimen name="header_padding">5dp</dimen>
+    <dimen name="logoPadding">60dp</dimen>
     <dimen name="logoTitlePadding">10dp</dimen>
+    <dimen name="quaver_size">60sp</dimen>
 </resources>
