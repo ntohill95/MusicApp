@@ -31,13 +31,14 @@
             android:id="@+id/album"
             style="@style/NowPlayingStyle"
             android:layout_weight="2"
-            android:src="@drawable/album"/>
+            android:src="@drawable/album" />
 
         <TextView
             android:id="@+id/quaver"
             style="@style/ArtistStyle"
             android:layout_weight="0.5"
             android:text="@string/song" />
+
         <TextView
             android:id="@+id/quaver"
             style="@style/ArtistStyle"
