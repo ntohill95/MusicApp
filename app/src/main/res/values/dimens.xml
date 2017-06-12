@@ -7,5 +7,14 @@
     <dimen name="logoTitlePadding">5dp</dimen>
     <dimen name="quaver_size">60sp</dimen>
     <dimen name="tab_size">15sp</dimen>
-
+    <dimen name="buttonPad">5dp</dimen>
+    <dimen name="tableRowMargin">1dp</dimen>
+    <dimen name="tableRowPadding">5dp</dimen>
+    <dimen name="tableTextSize">15sp</dimen>
+    <dimen name="small_header_height">50dp</dimen>
+    <dimen name="small_header_size">40sp</dimen>
+    <dimen name="nowPlayingPadding">10dp</dimen>
+    <dimen name="artist_size">25sp</dimen>
+    <dimen name="search_pad">10dp</dimen>
+    <dimen name="search_margin">10dp</dimen>
 </resources>

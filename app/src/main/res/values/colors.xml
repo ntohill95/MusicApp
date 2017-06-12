@@ -5,5 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="logoBlue">#2196F3</color>
     <color name="background">#000000</color>
+    <color name="tableLines">#9E9E9E</color>
+    <color name="white">#FFFFFF</color>
 
 </resources>

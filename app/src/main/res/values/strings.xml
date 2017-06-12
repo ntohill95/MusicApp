@@ -4,4 +4,8 @@
     <string name="library">Library</string>
     <string name="search">Search</string>
     <string name="play">Playing</string>
+    <string name="song">Song Name</string>
+    <string name="artist">Artists Name</string>
+    <string name="now_playing">Now Playing</string>
+
 </resources>

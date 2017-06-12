@@ -10,7 +10,7 @@
 
     <style name="HeadingStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/header_height</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/background</item>
         <item name="android:textStyle">bold</item>
@@ -31,12 +31,13 @@
         <item name="android:textColor">@color/logoBlue</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">@dimen/quaver_size</item>
-        <item name="android:padding">@dimen/logoTitlePadding</item>
+        <item name="android:padding">0dp</item>
     </style>
 
     <style name="MenuButtonStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/buttonPad</item>
     </style>
 
     <style name="tabStyles">
@@ -48,4 +49,55 @@
         <item name="android:textSize">@dimen/tab_size</item>
     </style>
 
+    <style name="tableRowStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/tableRowMargin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/tableTextSize</item>
+        <item name="android:padding">@dimen/tableRowPadding</item>
+
+    </style>
+    <style name="SmallHeadingStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/small_header_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/header_padding</item>
+        <item name="android:textSize">@dimen/small_header_size</item>
+    </style>
+
+    <style name="SmallTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/logoBlue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/small_header_size</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="NowPlayingStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:padding">@dimen/nowPlayingPadding</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ArtistStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/logoBlue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/artist_size</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="searchBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/tableLines</item>
+        <item name="android:layout_margin">@dimen/search_margin</item>
+        <item name="android:padding">@dimen/search_pad</item>
+    </style>
 </resources>

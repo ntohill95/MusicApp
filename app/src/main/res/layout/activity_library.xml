@@ -1,9 +1,296 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.musicapp.LibraryActivity">
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/home"
+        style="@style/HeadingStyle"
+        android:background="@color/logoBlue"
+        android:text="@string/library" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/tableLines">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:background="#000000">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/song" />
+
+                        <TextView
+                            style="@style/tableRowStyle"
+                            android:text="@string/artist" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/libButton"
+                style="@style/MenuButtonStyle"
+                android:layout_weight="1"
+                android:src="@drawable/book" />
+
+            <ImageView
+                android:id="@+id/homeButton"
+                style="@style/MenuButtonStyle"
+                android:layout_weight="1"
+                android:src="@drawable/home" />
+
+            <ImageView
+                android:id="@+id/playButton"
+                style="@style/MenuButtonStyle"
+                android:layout_weight="1"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:id="@+id/searchButton"
+                style="@style/MenuButtonStyle"
+                android:layout_weight="1"
+                android:src="@drawable/search" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                style="@style/tabStyles"
+                android:layout_weight="1"
+                android:text="@string/library" />
+
+            <TextView
+                style="@style/tabStyles"
+                android:layout_weight="1"
+                android:text="@string/home" />
+
+            <TextView
+                style="@style/tabStyles"
+                android:layout_weight="1"
+                android:text="@string/play" />
+
+            <TextView
+                style="@style/tabStyles"
+                android:layout_weight="1"
+                android:text="@string/search" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
